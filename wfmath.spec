@@ -28,7 +28,6 @@ geometric objects.
 
 %build
 cp -f /usr/share/automake/config.sub .
-CXXFLAGS=%{rpmcflags}
 %configure --enable-static
 %{__make}
 
