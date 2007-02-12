@@ -1,6 +1,6 @@
 %define libsuffix -0.3
 Summary:	A math library
-Summary(pl.UTF-8):   Biblioteka matematyczna
+Summary(pl.UTF-8):	Biblioteka matematyczna
 Name:		wfmath
 Version:	0.3.4
 Release:	0.1
@@ -23,7 +23,7 @@ geometrycznych.
 
 %package devel
 Summary:	Header files for WorldForge math library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki matematycznej WorldForge
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki matematycznej WorldForge
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libstdc++-devel >= 2.95.2
@@ -36,7 +36,7 @@ Pliki nagłówkowe biblioteki matematycznej WorldForge.
 
 %package static
 Summary:	Static WorldForge math library
-Summary(pl.UTF-8):   Statyczna biblioteka matematyczne WorldForge
+Summary(pl.UTF-8):	Statyczna biblioteka matematyczne WorldForge
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
