@@ -1,6 +1,6 @@
 %define libsuffix -0.3
 Summary:	A math library
-Summary(pl):	Biblioteka matematyczna
+Summary(pl.UTF-8):   Biblioteka matematyczna
 Name:		wfmath
 Version:	0.3.4
 Release:	0.1
@@ -17,13 +17,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is the WorldForge math library. The primary focus of %{name} is
 geometric objects.
 
-%description -l pl
-Biblioteka matematyczna WorldForge. Skupia siÍ g≥Ûwnie na obiektach
+%description -l pl.UTF-8
+Biblioteka matematyczna WorldForge. Skupia siƒô g≈Ç√≥wnie na obiektach
 geometrycznych.
 
 %package devel
 Summary:	Header files for WorldForge math library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki matematycznej WorldForge
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki matematycznej WorldForge
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libstdc++-devel >= 2.95.2
@@ -31,19 +31,19 @@ Requires:	libstdc++-devel >= 2.95.2
 %description devel
 Header files for WorldForge math library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki matematycznej WorldForge.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki matematycznej WorldForge.
 
 %package static
 Summary:	Static WorldForge math library
-Summary(pl):	Statyczna biblioteka matematyczne WorldForge
+Summary(pl.UTF-8):   Statyczna biblioteka matematyczne WorldForge
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static WorldForge math library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka matematyczne WorldForge.
 
 %prep
