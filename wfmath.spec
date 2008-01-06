@@ -2,12 +2,12 @@
 Summary:	A math library
 Summary(pl.UTF-8):	Biblioteka matematyczna
 Name:		wfmath
-Version:	0.3.4
+Version:	0.3.7
 Release:	0.1
 License:	GPL
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/worldforge/%{name}-%{version}.tar.bz2
-# Source0-md5:	2c8b85fc637d1f0e3fbe5a659ba67869
+# Source0-md5:	5aacc166ba647b7c58ae41afceb3b083
 URL:		http://www.worldforge.org/dev/eng/libraries/wfmath
 BuildRequires:	automake
 BuildRequires:	libstdc++-devel >= 2.95.2
@@ -70,6 +70,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_libdir}/lib*.so.*.*.*
+%attr(755,root,root) %ghost %{_libdir}/libwfmath*.so.4
 
 %files devel
 %defattr(644,root,root,755)
